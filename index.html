@@ -1,261 +1,180 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-<title>Demo Web para Restaurante | DiSo Web Studio</title>
-
-<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-
-<link rel="stylesheet" href="styles.css">
-
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GOYA — Bento Gastronomy</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,wght@0,300;0,400;0,700;1,300;1,400&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="styles.css">
 </head>
-
 <body>
 
-<header>
-<nav class="navbar">
-
-<img src="logo.png" class="nav-logo" alt="Logo del restaurante">
-
-<button class="menu-toggle" aria-label="Abrir menú">☰</button>
-
-<ul class="nav-links">
-<li><a href="#sobre">Nosotros</a></li>
-<li><a href="#menu">Menú</a></li>
-<li><a href="#galeria">Galería</a></li>
-<li><a href="#ubicacion">Ubicación</a></li>
-</ul>
-
-</nav>
-</header>
-
-
-<main>
-
-<section id="hero">
-
-<div class="hero-content">
-
-<img src="logo.png" class="hero-logo" alt="Logo del restaurante">
-
-<p class="hero-subtitle">
-Comida deliciosa preparada al momento
-</p>
-
-<p style="max-width: 680px; margin: 0 auto 22px auto; color: rgba(255,255,255,0.88); font-size: 14px; line-height: 1.7;">
-Este sitio es un ejemplo de diseño web para restaurantes.
-</p>
-
-<div class="hero-actions">
-
-<a href="https://wa.me/5215525051050?text=Hola,%20quiero%20una%20p%C3%A1gina%20web%20como%20este%20demo%20de%20restaurante%20para%20mi%20negocio"
-class="whatsapp-btn hero-btn"
-target="_blank"
-rel="noopener noreferrer">
-
-Quiero una página como esta
-
-</a>
-
-</div>
-
-</div>
-
-</section>
-
-
-
-<section id="sobre" class="reveal">
-
-<h2>Sobre el restaurante</h2>
-
-<p class="about-text">
-
-En Sabor Urbano preparamos comida fresca con ingredientes de calidad y recetas que
-combinan sabor, rapidez y tradición.
-
-Nuestro objetivo es ofrecerte platillos deliciosos que puedas disfrutar en cualquier
-momento del día.
-
-</p>
-
-</section>
-
-
-
-<section id="menu" class="reveal">
-
-<h2>Menú</h2>
-
-<div class="menu-grid">
-
-<div class="menu-card">
-
-<h3>Hamburguesa Clásica</h3>
-
-<p class="menu-desc">
-Carne 100% de res, queso, lechuga, tomate y salsa especial.
-</p>
-
-<span class="menu-price">$120</span>
-
-</div>
-
-
-<div class="menu-card">
-
-<h3>Tacos de Pastor</h3>
-
-<p class="menu-desc">
-Tortillas recién hechas con carne al pastor y piña.
-</p>
-
-<span class="menu-price">$95</span>
-
-</div>
-
-
-<div class="menu-card">
-
-<h3>Quesadillas</h3>
-
-<p class="menu-desc">
-Tortillas rellenas con queso y tu elección de guisado.
-</p>
-
-<span class="menu-price">$80</span>
-
-</div>
-
-
-<div class="menu-card">
-
-<h3>Refresco</h3>
-
-<p class="menu-desc">
-Variedad de refrescos y bebidas frías.
-</p>
-
-<span class="menu-price">$35</span>
-
-</div>
-
-
-</div>
-
-</section>
-
-
-
-<section id="galeria" class="reveal">
-
-<h2>Galería</h2>
-
-<div class="gallery-grid">
-
-<div class="gallery-item">
-<img src="image1.jpg" alt="Platillo del restaurante" loading="lazy">
-</div>
-
-<div class="gallery-item">
-<img src="image2.jpg" alt="Comida preparada" loading="lazy">
-</div>
-
-<div class="gallery-item">
-<img src="image1.jpg" alt="Interior del restaurante" loading="lazy">
-</div>
-
-<div class="gallery-item">
-<img src="image2.jpg" alt="Servicio del restaurante" loading="lazy">
-</div>
-
-</div>
-
-</section>
-
-
-
-<section id="ubicacion" class="reveal">
-
-<h2>Ubicación</h2>
-
-<p>Av. Reforma 123, Ciudad de México</p>
-
-<p>Lunes a Domingo · 12:00 PM – 10:00 PM</p>
-
-<div class="contact-buttons">
-
-<a href="https://wa.me/5215525051050?text=Hola,%20quiero%20una%20p%C3%A1gina%20web%20como%20este%20demo%20de%20restaurante%20para%20mi%20negocio"
-class="whatsapp-btn"
-target="_blank"
-rel="noopener noreferrer">
-
-Quiero una página como esta
-
-</a>
-
-</div>
-
-<iframe
-src="https://www.google.com/maps?q=Mexico%20City&output=embed"
-width="100%"
-height="300"
-style="border:0;border-radius:10px;"
-loading="lazy"
-title="Mapa de ejemplo">
-</iframe>
-
-</section>
-
-
-<section id="final-cta" class="reveal">
-
-<h2>¿Quieres una página así para tu restaurante?</h2>
-
-<p>Te ayudamos a tener una web profesional, moderna y lista para mostrar menú, ubicación y contacto.</p>
-
-<div class="hero-actions">
-
-<a href="https://wa.me/5215525051050?text=Hola,%20quiero%20una%20p%C3%A1gina%20web%20como%20este%20demo%20de%20restaurante%20para%20mi%20negocio"
-class="whatsapp-btn"
-target="_blank"
-rel="noopener noreferrer">
-
-Solicitar página
-
-</a>
-
-</div>
-
-</section>
-
-</main>
-
-
-
-<footer>
-
-<p>© 2026 Demo de diseño web para restaurante · DiSo Web Studio</p>
-
-</footer>
-
-
-
-<a href="https://wa.me/5215525051050?text=Hola,%20quiero%20una%20p%C3%A1gina%20web%20como%20este%20demo%20de%20restaurante%20para%20mi%20negocio"
-class="whatsapp-float"
-target="_blank"
-rel="noopener noreferrer"
-aria-label="Abrir WhatsApp">
-
-💬
-
-</a>
-
-
-<script src="script.js"></script>
-
+  <!-- CURSOR -->
+  <div id="cur-dot"></div>
+  <div id="cur-ring"></div>
+
+  <!-- WA -->
+  <a href="https://wa.me/525500000000" class="wa-btn" id="waBtn" target="_blank" aria-label="WhatsApp">
+    <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+    <span>Reservar</span>
+  </a>
+
+  <!-- NAVBAR -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-wrap">
+      <a href="#" class="nav-logo">GOYA</a>
+      <div class="nav-links">
+        <a href="#menu" class="nl">Menú</a>
+        <a href="#nosotros" class="nl">Nosotros</a>
+        <a href="#galeria" class="nl">Galería</a>
+        <a href="#reservar" class="nl nl-cta">Reservar</a>
+      </div>
+      <button class="burger" id="burger"><span></span><span></span></button>
+    </div>
+  </nav>
+  <div class="mob-menu" id="mobMenu">
+    <a href="#menu" class="mml">Menú</a>
+    <a href="#nosotros" class="mml">Nosotros</a>
+    <a href="#galeria" class="mml">Galería</a>
+    <a href="#reservar" class="mml">Reservar</a>
+  </div>
+
+  <main>
+    <!-- ══ HERO ══ -->
+    <section class="hero" id="hero">
+      <div class="hero-bento">
+
+        <div class="hb-main reveal">
+          <img src="https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=1200&q=85&auto=format&fit=crop" alt="GOYA" class="hb-img">
+          <div class="hb-overlay"></div>
+          <div class="hb-content">
+            <div class="hb-eyebrow">Alta gastronomía · CDMX</div>
+            <h1 class="hb-title">GOYA</h1>
+            <p class="hb-sub">Donde el sabor<br>encuentra su forma.</p>
+            <a href="#reservar" class="btn-org">Reservar mesa</a>
+          </div>
+        </div>
+
+        <div class="hb-side">
+          <div class="hb-card hb-card-sm reveal" style="--rd:.1s">
+            <img src="https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=600&q=80&auto=format&fit=crop" alt="Plato" class="hb-img">
+            <div class="hb-card-label">Menú Degustación</div>
+          </div>
+          <div class="hb-card hb-card-dark reveal" style="--rd:.2s">
+            <div class="hb-stat">
+              <span class="hb-stat-n">★ 4.9</span>
+              <span class="hb-stat-l">Google Reviews</span>
+            </div>
+          </div>
+          <div class="hb-card hb-card-sm reveal" style="--rd:.3s">
+            <img src="https://images.unsplash.com/photo-1600891964599-f61ba0e24092?w=600&q=80&auto=format&fit=crop" alt="Interior" class="hb-img">
+            <div class="hb-card-label">Ambiente íntimo</div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ══ MENÚ ══ -->
+    <section class="menu-sec" id="menu">
+      <div class="sec-head reveal">
+        <div class="eyebrow">Nuestra carta</div>
+        <h2 class="sec-title">El Menú</h2>
+      </div>
+
+      <div class="menu-tabs reveal">
+        <button class="mtab active" data-cat="entrantes">Entrantes</button>
+        <button class="mtab" data-cat="principales">Principales</button>
+        <button class="mtab" data-cat="postres">Postres</button>
+        <button class="mtab" data-cat="maridaje">Maridaje</button>
+      </div>
+
+      <div class="menu-grid" id="menuGrid">
+        <!-- se llena con JS -->
+      </div>
+    </section>
+
+    <!-- ══ NOSOTROS ══ -->
+    <section class="nosotros-sec" id="nosotros">
+      <div class="nos-inner">
+        <div class="nos-img-col reveal">
+          <div class="nos-img-stack">
+            <img src="https://images.unsplash.com/photo-1600565193348-f74bd3c7ccdf?w=800&q=85&auto=format&fit=crop" alt="Chef" class="nos-img-main">
+            <div class="nos-img-tag reveal" style="--rd:.2s">
+              <span class="nit-n">2009</span>
+              <span class="nit-l">Fundado</span>
+            </div>
+          </div>
+        </div>
+        <div class="nos-text-col reveal" style="--rd:.15s">
+          <div class="eyebrow">Nuestra historia</div>
+          <h2 class="nos-title">Cocina que cuenta historias.</h2>
+          <p class="nos-p">GOYA nació de la convicción de que la alta gastronomía debe ser también un viaje emocional. Cada plato que servimos es el resultado de años de investigación, viajes y conversaciones con los mejores productores de México y el mundo.</p>
+          <p class="nos-p" style="margin-top:16px">El Chef Arturo Solis dirige una cocina donde la técnica francesa se encuentra con ingredientes nativos de Oaxaca, Veracruz y Baja California.</p>
+          <div class="nos-stats">
+            <div class="ns-i"><span class="ns-n">15+</span><span class="ns-l">Años</span></div>
+            <div class="ns-sep"></div>
+            <div class="ns-i"><span class="ns-n">3</span><span class="ns-l">Estrellas</span></div>
+            <div class="ns-sep"></div>
+            <div class="ns-i"><span class="ns-n">40</span><span class="ns-l">Comensales</span></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ══ GALERIA ══ -->
+    <section class="galeria-sec" id="galeria">
+      <div class="sec-head reveal">
+        <div class="eyebrow">Galería</div>
+        <h2 class="sec-title">Una experiencia visual</h2>
+      </div>
+      <div class="galeria-grid">
+        <div class="gg-item gg-tall reveal"><img src="https://images.unsplash.com/photo-1559339352-11d035aa65de?w=700&q=80&auto=format&fit=crop" alt="" class="gg-img"></div>
+        <div class="gg-item reveal" style="--rd:.1s"><img src="https://images.unsplash.com/photo-1476224203421-9ac39bcb3327?w=700&q=80&auto=format&fit=crop" alt="" class="gg-img"></div>
+        <div class="gg-item reveal" style="--rd:.2s"><img src="https://images.unsplash.com/photo-1466978913421-dad2ebd01d17?w=700&q=80&auto=format&fit=crop" alt="" class="gg-img"></div>
+        <div class="gg-item gg-wide reveal" style="--rd:.1s"><img src="https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=900&q=80&auto=format&fit=crop" alt="" class="gg-img"></div>
+        <div class="gg-item reveal" style="--rd:.3s"><img src="https://images.unsplash.com/photo-1600891964599-f61ba0e24092?w=700&q=80&auto=format&fit=crop" alt="" class="gg-img"></div>
+      </div>
+    </section>
+
+    <!-- ══ RESERVAR ══ -->
+    <section class="res-sec" id="reservar">
+      <div class="res-inner">
+        <div class="res-left reveal">
+          <div class="eyebrow">Reservaciones</div>
+          <h2 class="res-title">Tu mesa<br><em>te espera.</em></h2>
+          <div class="res-info">
+            <div class="ri"><span class="ri-l">Dirección</span><span class="ri-v">Masaryk 123, Polanco, CDMX</span></div>
+            <div class="ri"><span class="ri-l">Horario</span><span class="ri-v">Mar – Dom · 13:00 – 23:00</span></div>
+            <div class="ri"><span class="ri-l">Teléfono</span><span class="ri-v">+52 55 0000 0000</span></div>
+          </div>
+        </div>
+        <div class="res-right reveal" style="--rd:.15s">
+          <form class="res-form" id="resForm">
+            <div class="rf-title">Solicitar reserva</div>
+            <div class="rf-sub">Confirmación en menos de 2 horas</div>
+            <div class="rf-sep"></div>
+            <div class="rf-row"><div class="rfg"><label>Nombre</label><input type="text" placeholder="Tu nombre"></div><div class="rfg"><label>Personas</label><select><option>2 personas</option><option>3-4 personas</option><option>5-6 personas</option><option>Evento privado</option></select></div></div>
+            <div class="rfg"><label>Email</label><input type="email" placeholder="tu@email.com"></div>
+            <div class="rfg"><label>Fecha</label><input type="date"></div>
+            <button type="submit" class="btn-org btn-org-full">Confirmar reserva</button>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="footer-in">
+      <span class="footer-brand">GOYA</span>
+      <div class="footer-links"><a href="#menu">Menú</a><a href="#nosotros">Nosotros</a><a href="#reservar">Reservar</a></div>
+      <span class="footer-copy">© 2026 GOYA Restaurant · Polanco, CDMX</span>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
 </body>
 </html>
